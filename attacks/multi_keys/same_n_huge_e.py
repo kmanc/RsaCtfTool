@@ -3,7 +3,7 @@
 
 from attacks.abstract_attack import AbstractAttack
 import gmpy2
-from lib.crypto_wrapper import number
+from Crypto.Util import number
 from lib.utils import timeout, TimeoutError
 from lib.rsalibnum import gcdext, powmod
 
