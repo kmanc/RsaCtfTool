@@ -3,7 +3,7 @@
 
 from attacks.abstract_attack import AbstractAttack
 import subprocess
-from lib.crypto_wrapper import RSA
+from Crypto.PublicKey import RSA
 from lib.keys_wrapper import PrivateKey
 from lib.utils import rootpath
 
